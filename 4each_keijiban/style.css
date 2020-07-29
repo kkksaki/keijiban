@@ -1,0 +1,111 @@
+header { 
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size:15px;
+    background-color: black;
+    line-height: 50px;
+    padding-left: 10px;
+    margin-right: 60px;
+}
+header li {
+    width: auto;
+    display: inline-block;
+    list-style:none;
+    margin-left: 30px;
+}
+main{
+    background-color: white;
+    width:100%;
+    height:900px;
+    margin:0;
+    margin-top:20px; 
+}
+.left{
+    float:left;
+    width: 72%;
+    height:850px;
+    background-color:white;
+    margin-right: 20px;
+}
+.left h1{
+    border-left:5px solid;
+    border-bottom:2px solid;
+}
+.left h2{
+    margin-left: 10px;
+    margin-top:10px;
+    margin-bottom:20px;
+    border-left:4px red solid;
+    background-color:#f1f1f1;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    width:500px;
+    font-size:20px;
+}
+
+form{
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    width:1020px;
+}
+
+form div{
+    padding:15px;
+}
+
+.text,textarea,.dropdown{
+    border:1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background-color: #fff;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding: 4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+.kiji{
+    float:left;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    width:980px;
+    padding: 15px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom:10px; 
+}
+.kiji h3{
+     margin-top: 2px;
+    border-bottom: 2px dotted #ebebeb;
+    margin-right: 20px;
+}
+.right{
+    float:right;
+    background-color:white;
+    width: 25%;
+    height:850px;
+    margin-left: -30px;  
+}
+right ul{
+        list-style-type: none;
+        color: black;
+    }
+.right h2{
+    margin-top: 2px;
+    border-bottom: 2px dotted black;
+    margin-right: 10px;
+    text-align: left;
+}
+footer{
+    clear: left;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
